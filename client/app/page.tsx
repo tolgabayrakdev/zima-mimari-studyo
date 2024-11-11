@@ -1,6 +1,6 @@
 'use client'
 
-import { Menu, X, Mail, Phone, MapPin, ChevronDown } from 'lucide-react'
+import { Menu, X, Mail, Phone, MapPin, ChevronDown, Instagram } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -222,14 +222,21 @@ export default function Component() {
                     </a>
                   </li>
                   <li className="flex items-center">
+                    <Instagram className="h-6 w-6 mr-2" />
+                    <a href="www.instagram.com/zimamimaristudyo" className="hover:underline">
+                      Zima mimari studyo
+                    </a>
+                  </li>
+                  <li className="flex items-center">
                     <Phone className="h-6 w-6 mr-2" />
                     <a href="tel:+901234567890" className="hover:underline">
                       +90 123 456 7890
                     </a>
                   </li>
+
                   <li className="flex items-center">
                     <MapPin className="h-6 w-6 mr-2" />
-                    <span>Örnek Mahallesi, Mimarlık Caddesi No: 123, İstanbul</span>
+                    <span>Örnek Mahallesi, Mimarlık Caddesi No: 123, Giresun</span>
                   </li>
                 </ul>
               </motion.div>
