@@ -223,7 +223,7 @@ export default function Component() {
                   </li>
                   <li className="flex items-center">
                     <Instagram className="h-6 w-6 mr-2" />
-                    <a href="www.instagram.com/zimamimaristudyo" className="hover:underline">
+                    <a href="https://www.instagram.com/zimamimaristudyo/" className="hover:underline">
                       Zima mimari studyo
                     </a>
                   </li>
