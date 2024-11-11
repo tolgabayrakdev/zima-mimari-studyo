@@ -117,7 +117,7 @@ export default function Component() {
               transition={{ duration: 0.8, delay: 0.4 }}
             >
               <Link
-                href="#contact"
+                href="mailto:info@zimamimari.com"
                 className="bg-white text-gray-800 px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center"
               >
                 Bize Ulaşın
